@@ -15,6 +15,8 @@ class TestHomePage(BaseClass):
 		
 		print("adding in second file for push and pull")
 		
+		print("branch in all module")
+		
         homepage= HomePage(self.driver)
         log.info("first name is "+getData["firstname"])
         homepage.getName().send_keys(getData["firstname"])
