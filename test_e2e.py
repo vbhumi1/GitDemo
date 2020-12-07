@@ -21,6 +21,8 @@ class TestOne(BaseClass):
         cards = checkoutpage.getCardTitles()
         i = -1
 		# I am adding for git push 
+		print("push and pull")
+		print("2 and push and pull")
         for card in cards:
             i = i + 1
             cardText = card.text

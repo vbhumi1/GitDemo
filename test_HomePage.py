@@ -12,6 +12,9 @@ class TestHomePage(BaseClass):
 
     def test_formSubmission(self,getData):
         log = self.getLogger()
+		
+		print("adding in second file for push and pull")
+		
         homepage= HomePage(self.driver)
         log.info("first name is "+getData["firstname"])
         homepage.getName().send_keys(getData["firstname"])
