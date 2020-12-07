@@ -20,6 +20,7 @@ class TestOne(BaseClass):
         log.info("getting all the card titles")
         cards = checkoutpage.getCardTitles()
         i = -1
+		# I am adding for git push 
         for card in cards:
             i = i + 1
             cardText = card.text
